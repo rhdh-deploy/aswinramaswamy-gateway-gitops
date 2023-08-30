@@ -1,0 +1,15 @@
+app:
+  name: aswinramaswamy-poi-gateway-app
+  namespace: aswinramaswamy
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/aswinramaswamy-gateway
+  org: rhdh-deploy
+  name: aswinramaswamy-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: aswinramaswamy/poi-gateway-app
+  tag: latest
